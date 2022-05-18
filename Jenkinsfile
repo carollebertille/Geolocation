@@ -1,4 +1,4 @@
-ipeline {
+pipeline {
     triggers {
   pollSCM('* * * * *')
 }
