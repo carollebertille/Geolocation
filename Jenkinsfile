@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout'){
             steps{
-                git branch: 'main', url: ''
+                git branch: 'main', url: 'https://github.com/carollebertille/Geolocation.git'
             }
         }
         stage('Code Build') {
